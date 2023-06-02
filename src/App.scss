@@ -1,3 +1,15 @@
+$primary-color: #ffd700;
+
+@import 'animate.css';
+
+@font-face {
+  font-family: 'helvetica Neue';
+  src: url('./assets/fonts/helvetica-neu.ttf') format('ttf');
+};
+
+
+
+// previous code
 .App {
   text-align: center;
 }
