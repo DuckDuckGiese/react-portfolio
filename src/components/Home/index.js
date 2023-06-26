@@ -1,3 +1,6 @@
+import { Link } from 'react-router-dom';
+import './index.scss';
+
 const Home = () => {
 
 
@@ -8,7 +11,7 @@ const Home = () => {
                 I'm Ricky <br /> 
                 Web Developer</h1>
                 <h2>Full Stack Developer</h2>
-                <Link>CONTACT ME</Link>
+                <Link to="/contact" className='flat-button'>CONTACT ME</Link>
             </div>
         </dix>
     );
