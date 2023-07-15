@@ -13,6 +13,7 @@ const About = () => {
     }, [])
 
     return (
+        <>
         <div className='container about-page'>
             <div className='text-zone'>
                 <h1>
@@ -38,7 +39,32 @@ const About = () => {
                 In addition to my technical expertise in data processing and analysis, I possess strong communication and storytelling skills. I can effectively translate complex data findings into meaningful narratives that resonate with stakeholders at all levels of the organization. By bridging the gap between technical details and business objectives, I empower decision-makers to make data-driven choices confidently.
                 </p>
             </div>
+
+            <div className="stage-cube-cont">
+            <div className="cubespinner">
+                <div className="face1">
+                    <FontAwesomeIcon icon={faAngular} color="#DD0031" />
+                </div>
+                <div className="face2">
+                    <FontAwesomeIcon icon={faHtml5} color="#F06529" />
+                </div>
+                <div className="face3">
+                    <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
+                </div>
+                <div className="face4">
+                    <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
+                </div>
+                <div className="face5">
+                    <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
+                </div>
+                <div className="face6">
+                    <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
+                </div>
+            </div>
+            </div>
         </div>
+        <Loader type="pacman" />
+        </>
     )
 }
 
