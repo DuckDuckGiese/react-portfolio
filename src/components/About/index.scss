@@ -11,6 +11,12 @@
 
 .cubespinner {
     animation-name: spincube;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 12s;
+    transform-style: preserve-3d;
+    transform-origin: 100px 100px 0;
+    margin-left: calc(50% - 100px);
 }
 
 @keyframes spincube{
@@ -31,6 +37,6 @@
         transform: rotateY(-270deg) rotateZ(90deg);
     }
     83% {
-        transform: rotateY(90deg) rotateZ(90deg);
+        transform: rotateY(90deg);
     }
 }
