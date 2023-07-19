@@ -18,7 +18,8 @@ const Home = () => {
 
 
     return (
-        <dix className="container home-page">
+        <>
+        <div className="container home-page">
             <div className="text-zone">
                 <h1>
                 <span className={letterClass}>H</span>
@@ -37,7 +38,9 @@ const Home = () => {
                 <Link to="/contact" className='flat-button'>CONTACT ME</Link>
             </div>
             <Logo />
-        </dix>
+        </div>
+        <loader type="pacman" />
+        </>
     );
 }
 
